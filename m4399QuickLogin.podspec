@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
   
-  s.source_files = 'm4399QuickLogin/Classes/**/*'
+  # s.source_files = 'm4399QuickLogin/Classes/**/*'
   
   s.resource_bundles =  {
     'EAccountOpenPageResource' => ['m4399QuickLogin/Assets/*']
