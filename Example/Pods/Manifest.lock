@@ -1,0 +1,16 @@
+PODS:
+  - m4399QuickLogin (1.0.0)
+
+DEPENDENCIES:
+  - m4399QuickLogin (from `../`)
+
+EXTERNAL SOURCES:
+  m4399QuickLogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  m4399QuickLogin: a3ec01fc034d54f428fba9b48b4ee6578f075b70
+
+PODFILE CHECKSUM: 5da401750d4ceffa7cec7b4feab0bc3e1c991867
+
+COCOAPODS: 1.7.1

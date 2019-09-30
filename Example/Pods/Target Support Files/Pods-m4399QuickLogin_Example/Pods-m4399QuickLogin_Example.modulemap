@@ -1,0 +1,6 @@
+framework module Pods_m4399QuickLogin_Example {
+  umbrella header "Pods-m4399QuickLogin_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

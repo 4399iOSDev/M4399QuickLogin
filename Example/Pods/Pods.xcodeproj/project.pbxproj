@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B8563BA2A791C80961B91F6A71F7B520 /* m4399QuickLogin */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C70E39B9CEC438EBA99409D1AA3CB926 /* Build configuration list for PBXAggregateTarget "m4399QuickLogin" */;
+			buildPhases = (
+			);
+			dependencies = (
+				5D6904620FCB791C164AD62F22E99889 /* PBXTargetDependency */,
+			);
+			name = m4399QuickLogin;
+			productName = m4399QuickLogin;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		00E6252762A3155C7E2D87717FFA284B /* loginBtn_Pre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49D3AB01A9C39B208BD9A57B76A44E5 /* loginBtn_Pre@2x.png */; };
+		0D76BC29E5E7EFDC6A895A14AECDBC15 /* goback_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2B8823DBFD41D5674E5F271149185 /* goback_nor@2x.png */; };
+		1921159A4B5B5318F011861DE81AE3E5 /* checkBox_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C5A8B7BBDA8D329C18CE0C56B987BE /* checkBox_selected@2x.png */; };
+		2C845643256BE9A266884630E59BF9F8 /* checkBox_unSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB11309165C56315ABF42600427B73F /* checkBox_unSelected@2x.png */; };
+		31C7E40F014716F40C28576519754D7E /* 189m.png in Resources */ = {isa = PBXBuildFile; fileRef = 438321692E4AFF8316A3BE4F9B1499FC /* 189m.png */; };
+		37D37B46AEEFADC571A7CAA2BDB53293 /* goback_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A57C9EFECC320628AA3378D84DD81E1 /* goback_sel@2x.png */; };
+		3BE47D6ED4AB8119ADFE6B67A94F6394 /* EAccountAuthVC_dynamic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE4652D9ACD6C07906C748D8C8D151 /* EAccountAuthVC_dynamic.xib */; };
+		46F6C54265F8D582C0D0620FD5D40FBF /* logo_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB79188469D1923DFFA7C16C795E6F7F /* logo_mask@2x.png */; };
+		608A9C461E1FFBC000C7D6937C1B7D08 /* Pods-m4399QuickLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D653AD19BDD39485D0CD5016DDE26D /* Pods-m4399QuickLogin_Example-dummy.m */; };
+		8297F8BBBBA8BC50601C60420BF3F00E /* logo_mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4566899EDC9873309F69EECBA54402 /* logo_mini@2x.png */; };
+		89F8B4EDB9BACC320DD74BBA91FAD96D /* Pods-m4399QuickLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3258D0F4B2F4F1173AD008FCE024E2 /* Pods-m4399QuickLogin_Tests-dummy.m */; };
+		8D933F99D43002A157DCD7BCBD92A288 /* logo_mask1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B10832A01F71BDD712901DDB809E1 /* logo_mask1@2x.png */; };
+		A5F010FC6E8110543FEF28BD9E34609E /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E86BB004710BB7CF5102CAE3D5D4425 /* loading@2x.png */; };
+		AD41FF8726D946BCF5F88680DFB43EC3 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E3DB5A14E7E55882C2FF21B1912FED /* test1.png */; };
+		B25D7405A056FF6DA6F1A818176D3FB3 /* EAccountAuthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB3F5038C2FCA20B51286932AEAFD /* EAccountAuthVC.xib */; };
+		B93195CAE75C25D072DBA305DC5E2B72 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 594D83060D1F2B4681963F0F14967822 /* logo@2x.png */; };
+		BBD828041D08EB330204DC04303CDE69 /* EAccountWebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36FEC190E85F54BF558FF4B9955249F /* EAccountWebViewVC.xib */; };
+		C4954DD9C337CF06421B239583CBE5EB /* loginBtn_Nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FAAD4F5BB23BDAC292CCD878EE3E26 /* loginBtn_Nor@2x.png */; };
+		C9D3E0EFBE5738DE6FD6B4D81B855255 /* loginBtn_Dis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF6685522F1E976F9D9803AFE514C71 /* loginBtn_Dis@2x.png */; };
+		D5E02C505BDEF2057FA8ACA5EE4076FC /* EAccountWebViewVC_dynamic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE565B2C8771C42DA4BE166767269A1 /* EAccountWebViewVC_dynamic.xib */; };
+		EE9832A8DE48625BADF6C5C51A531042 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D27F2F7574C935E11F2A5FA2B564B5 /* test2.png */; };
+		F24317362F30146C13CB954BF12AE5BB /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 10187DA4ABD5D5629F5D555DA8A3A559 /* test3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5329173BCB2CAB28235EDB2B6BBEC772 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8563BA2A791C80961B91F6A71F7B520;
+			remoteInfo = m4399QuickLogin;
+		};
+		7924246221495DDBF3F4C45EE6FCEE7D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEB446265EE0C1A53798CD727113EC0C;
+			remoteInfo = "m4399QuickLogin-EAccountOpenPageResource";
+		};
+		D2A88BB2BA99D3B6FCBD9977FF60C83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A243E4C145B294920937061DE9E5985;
+			remoteInfo = "Pods-m4399QuickLogin_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CB2B8823DBFD41D5674E5F271149185 /* goback_nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_nor@2x.png"; path = "m4399QuickLogin/Assets/goback_nor@2x.png"; sourceTree = "<group>"; };
+		0FCE4652D9ACD6C07906C748D8C8D151 /* EAccountAuthVC_dynamic.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountAuthVC_dynamic.xib; path = m4399QuickLogin/Assets/EAccountAuthVC_dynamic.xib; sourceTree = "<group>"; };
+		10187DA4ABD5D5629F5D555DA8A3A559 /* test3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test3.png; path = m4399QuickLogin/Assets/test3.png; sourceTree = "<group>"; };
+		16FDD1B7BAA1954F98B4D623988AF931 /* Pods-m4399QuickLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		25D0907DA060CD34F45AD2A822F28A09 /* Pods-m4399QuickLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2A0E696B35F6730F4678FF4DFF6FE7C5 /* Pods-m4399QuickLogin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-m4399QuickLogin_Example-resources.sh"; sourceTree = "<group>"; };
+		2E4566899EDC9873309F69EECBA54402 /* logo_mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mini@2x.png"; path = "m4399QuickLogin/Assets/logo_mini@2x.png"; sourceTree = "<group>"; };
+		2EB2E48B354FE7A419B3FE72ADFB81E3 /* Pods-m4399QuickLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-m4399QuickLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3186141BA2EEACBF87C2672516F3BFEB /* libPods-m4399QuickLogin_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m4399QuickLogin_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AB26CA663DDC49BCD7A1000F0AFAC5 /* m4399QuickLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = m4399QuickLogin.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		405F2F0FEBC689E78429B630357442DC /* Pods-m4399QuickLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-m4399QuickLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		438321692E4AFF8316A3BE4F9B1499FC /* 189m.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 189m.png; path = m4399QuickLogin/Assets/189m.png; sourceTree = "<group>"; };
+		4DB11309165C56315ABF42600427B73F /* checkBox_unSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkBox_unSelected@2x.png"; path = "m4399QuickLogin/Assets/checkBox_unSelected@2x.png"; sourceTree = "<group>"; };
+		4E86BB004710BB7CF5102CAE3D5D4425 /* loading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading@2x.png"; path = "m4399QuickLogin/Assets/loading@2x.png"; sourceTree = "<group>"; };
+		52D27F2F7574C935E11F2A5FA2B564B5 /* test2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test2.png; path = m4399QuickLogin/Assets/test2.png; sourceTree = "<group>"; };
+		594D83060D1F2B4681963F0F14967822 /* logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo@2x.png"; path = "m4399QuickLogin/Assets/logo@2x.png"; sourceTree = "<group>"; };
+		5A0E2D93E4572F103246945DDF5195D0 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAccountOpenPageResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A57C9EFECC320628AA3378D84DD81E1 /* goback_sel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_sel@2x.png"; path = "m4399QuickLogin/Assets/goback_sel@2x.png"; sourceTree = "<group>"; };
+		640612C44020A5E2BDB6EEF03F650425 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountHYSDK.framework; path = m4399QuickLogin/EAccountHYSDK.framework; sourceTree = "<group>"; };
+		68FAAD4F5BB23BDAC292CCD878EE3E26 /* loginBtn_Nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Nor@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Nor@2x.png"; sourceTree = "<group>"; };
+		731BA41E9344FFF5CE36F4732E8012E2 /* Pods-m4399QuickLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-m4399QuickLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D4B10832A01F71BDD712901DDB809E1 /* logo_mask1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mask1@2x.png"; path = "m4399QuickLogin/Assets/logo_mask1@2x.png"; sourceTree = "<group>"; };
+		8B14900D2D8DF59FE980281DBF7DE7CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		94DDC84F8A29D886FE81DEBE4D6F1F02 /* libPods-m4399QuickLogin_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m4399QuickLogin_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE565B2C8771C42DA4BE166767269A1 /* EAccountWebViewVC_dynamic.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountWebViewVC_dynamic.xib; path = m4399QuickLogin/Assets/EAccountWebViewVC_dynamic.xib; sourceTree = "<group>"; };
+		A6170D3760D70B8D908F3D12E2B34491 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		AA96797F3852F5A3920C635DEB1C0E8A /* Pods-m4399QuickLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-m4399QuickLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB79188469D1923DFFA7C16C795E6F7F /* logo_mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mask@2x.png"; path = "m4399QuickLogin/Assets/logo_mask@2x.png"; sourceTree = "<group>"; };
+		B49D3AB01A9C39B208BD9A57B76A44E5 /* loginBtn_Pre@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Pre@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Pre@2x.png"; sourceTree = "<group>"; };
+		B6DE7F4C84900700129D8E8C4006BEF4 /* ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist"; sourceTree = "<group>"; };
+		B6E3DB5A14E7E55882C2FF21B1912FED /* test1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test1.png; path = m4399QuickLogin/Assets/test1.png; sourceTree = "<group>"; };
+		BC54C9908DA24C5A0C92A1053E337377 /* Pods-m4399QuickLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C0EBB3F5038C2FCA20B51286932AEAFD /* EAccountAuthVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountAuthVC.xib; path = m4399QuickLogin/Assets/EAccountAuthVC.xib; sourceTree = "<group>"; };
+		C36FEC190E85F54BF558FF4B9955249F /* EAccountWebViewVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountWebViewVC.xib; path = m4399QuickLogin/Assets/EAccountWebViewVC.xib; sourceTree = "<group>"; };
+		CBF28767B5C5650475E310E8913CD5BB /* Pods-m4399QuickLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CDF6685522F1E976F9D9803AFE514C71 /* loginBtn_Dis@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Dis@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Dis@2x.png"; sourceTree = "<group>"; };
+		CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = m4399QuickLogin.xcconfig; sourceTree = "<group>"; };
+		E2547DFF8A9F5BE98CAE4F293D654D15 /* m4399QuickLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = m4399QuickLogin.framework; path = m4399QuickLogin/m4399QuickLogin.framework; sourceTree = "<group>"; };
+		E3D653AD19BDD39485D0CD5016DDE26D /* Pods-m4399QuickLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-m4399QuickLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		EF3258D0F4B2F4F1173AD008FCE024E2 /* Pods-m4399QuickLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-m4399QuickLogin_Tests-dummy.m"; sourceTree = "<group>"; };
+		F8C5A8B7BBDA8D329C18CE0C56B987BE /* checkBox_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkBox_selected@2x.png"; path = "m4399QuickLogin/Assets/checkBox_selected@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54D8E563AE449BC3DEF8C48AB75DF1BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2B907BBED0303D06E0BA4D03FD045E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5531DD48D5AB6F49ED747F41729BBED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1486026272BB8FA55C08EE091698FF27 /* Pods-m4399QuickLogin_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				405F2F0FEBC689E78429B630357442DC /* Pods-m4399QuickLogin_Tests-acknowledgements.markdown */,
+				AA96797F3852F5A3920C635DEB1C0E8A /* Pods-m4399QuickLogin_Tests-acknowledgements.plist */,
+				EF3258D0F4B2F4F1173AD008FCE024E2 /* Pods-m4399QuickLogin_Tests-dummy.m */,
+				16FDD1B7BAA1954F98B4D623988AF931 /* Pods-m4399QuickLogin_Tests.debug.xcconfig */,
+				CBF28767B5C5650475E310E8913CD5BB /* Pods-m4399QuickLogin_Tests.release.xcconfig */,
+			);
+			name = "Pods-m4399QuickLogin_Tests";
+			path = "Target Support Files/Pods-m4399QuickLogin_Tests";
+			sourceTree = "<group>";
+		};
+		22106808908D6E0BC20E933B818A84D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */,
+				B6DE7F4C84900700129D8E8C4006BEF4 /* ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/m4399QuickLogin";
+			sourceTree = "<group>";
+		};
+		24304C6DB3D01735660454DE2D7E8FAA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9591EE53F61DB5F97241CE31803392B9 /* Pods-m4399QuickLogin_Example */,
+				1486026272BB8FA55C08EE091698FF27 /* Pods-m4399QuickLogin_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6292109A12F6CAED4BCD31D4B5011487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A0E2D93E4572F103246945DDF5195D0 /* EAccountOpenPageResource.bundle */,
+				94DDC84F8A29D886FE81DEBE4D6F1F02 /* libPods-m4399QuickLogin_Example.a */,
+				3186141BA2EEACBF87C2672516F3BFEB /* libPods-m4399QuickLogin_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66430596F90C574353F2AB6F3B58DF25 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B14900D2D8DF59FE980281DBF7DE7CC /* LICENSE */,
+				34AB26CA663DDC49BCD7A1000F0AFAC5 /* m4399QuickLogin.podspec */,
+				A6170D3760D70B8D908F3D12E2B34491 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6BA8CA318815E3A8223A102EA45E915D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E7ED5D31525DB94C2C94204E359D891 /* m4399QuickLogin */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		77E4A292D94FBD73FA65138BBBCDC6DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				438321692E4AFF8316A3BE4F9B1499FC /* 189m.png */,
+				F8C5A8B7BBDA8D329C18CE0C56B987BE /* checkBox_selected@2x.png */,
+				4DB11309165C56315ABF42600427B73F /* checkBox_unSelected@2x.png */,
+				C0EBB3F5038C2FCA20B51286932AEAFD /* EAccountAuthVC.xib */,
+				0FCE4652D9ACD6C07906C748D8C8D151 /* EAccountAuthVC_dynamic.xib */,
+				C36FEC190E85F54BF558FF4B9955249F /* EAccountWebViewVC.xib */,
+				9DE565B2C8771C42DA4BE166767269A1 /* EAccountWebViewVC_dynamic.xib */,
+				0CB2B8823DBFD41D5674E5F271149185 /* goback_nor@2x.png */,
+				5A57C9EFECC320628AA3378D84DD81E1 /* goback_sel@2x.png */,
+				4E86BB004710BB7CF5102CAE3D5D4425 /* loading@2x.png */,
+				CDF6685522F1E976F9D9803AFE514C71 /* loginBtn_Dis@2x.png */,
+				68FAAD4F5BB23BDAC292CCD878EE3E26 /* loginBtn_Nor@2x.png */,
+				B49D3AB01A9C39B208BD9A57B76A44E5 /* loginBtn_Pre@2x.png */,
+				594D83060D1F2B4681963F0F14967822 /* logo@2x.png */,
+				7D4B10832A01F71BDD712901DDB809E1 /* logo_mask1@2x.png */,
+				AB79188469D1923DFFA7C16C795E6F7F /* logo_mask@2x.png */,
+				2E4566899EDC9873309F69EECBA54402 /* logo_mini@2x.png */,
+				B6E3DB5A14E7E55882C2FF21B1912FED /* test1.png */,
+				52D27F2F7574C935E11F2A5FA2B564B5 /* test2.png */,
+				10187DA4ABD5D5629F5D555DA8A3A559 /* test3.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8E7ED5D31525DB94C2C94204E359D891 /* m4399QuickLogin */ = {
+			isa = PBXGroup;
+			children = (
+				91384443F6E2D5D1156AF4974577DEE2 /* Frameworks */,
+				66430596F90C574353F2AB6F3B58DF25 /* Pod */,
+				77E4A292D94FBD73FA65138BBBCDC6DA /* Resources */,
+				22106808908D6E0BC20E933B818A84D6 /* Support Files */,
+			);
+			name = m4399QuickLogin;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		91384443F6E2D5D1156AF4974577DEE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				640612C44020A5E2BDB6EEF03F650425 /* EAccountHYSDK.framework */,
+				E2547DFF8A9F5BE98CAE4F293D654D15 /* m4399QuickLogin.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9591EE53F61DB5F97241CE31803392B9 /* Pods-m4399QuickLogin_Example */ = {
+			isa = PBXGroup;
+			children = (
+				731BA41E9344FFF5CE36F4732E8012E2 /* Pods-m4399QuickLogin_Example-acknowledgements.markdown */,
+				2EB2E48B354FE7A419B3FE72ADFB81E3 /* Pods-m4399QuickLogin_Example-acknowledgements.plist */,
+				E3D653AD19BDD39485D0CD5016DDE26D /* Pods-m4399QuickLogin_Example-dummy.m */,
+				2A0E696B35F6730F4678FF4DFF6FE7C5 /* Pods-m4399QuickLogin_Example-resources.sh */,
+				BC54C9908DA24C5A0C92A1053E337377 /* Pods-m4399QuickLogin_Example.debug.xcconfig */,
+				25D0907DA060CD34F45AD2A822F28A09 /* Pods-m4399QuickLogin_Example.release.xcconfig */,
+			);
+			name = "Pods-m4399QuickLogin_Example";
+			path = "Target Support Files/Pods-m4399QuickLogin_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6BA8CA318815E3A8223A102EA45E915D /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				6292109A12F6CAED4BCD31D4B5011487 /* Products */,
+				24304C6DB3D01735660454DE2D7E8FAA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2A3BF350FF93D01CC0B7295EE44A2E43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29587326F9C4B54D624B09023B25E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		274146A7D3F1C74DA199B09099F8B95A /* Pods-m4399QuickLogin_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B24C714290A8CB6583653A0F2D2C6263 /* Build configuration list for PBXNativeTarget "Pods-m4399QuickLogin_Tests" */;
+			buildPhases = (
+				2A3BF350FF93D01CC0B7295EE44A2E43 /* Headers */,
+				7D3983FC2BAD0B465490A275CCD9BF38 /* Sources */,
+				B5531DD48D5AB6F49ED747F41729BBED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D37D0E2D5EDCA5532EFFEF1CB079DA41 /* PBXTargetDependency */,
+			);
+			name = "Pods-m4399QuickLogin_Tests";
+			productName = "Pods-m4399QuickLogin_Tests";
+			productReference = 3186141BA2EEACBF87C2672516F3BFEB /* libPods-m4399QuickLogin_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A243E4C145B294920937061DE9E5985 /* Pods-m4399QuickLogin_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B4D5DF0CEDD9FA5B33912B49E72898B /* Build configuration list for PBXNativeTarget "Pods-m4399QuickLogin_Example" */;
+			buildPhases = (
+				9B29587326F9C4B54D624B09023B25E0 /* Headers */,
+				A83C6FD850ADA70DCF8FAB3FDE8B02A2 /* Sources */,
+				AC2B907BBED0303D06E0BA4D03FD045E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D38D2817D3A520A788C05773F594F742 /* PBXTargetDependency */,
+			);
+			name = "Pods-m4399QuickLogin_Example";
+			productName = "Pods-m4399QuickLogin_Example";
+			productReference = 94DDC84F8A29D886FE81DEBE4D6F1F02 /* libPods-m4399QuickLogin_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BEB446265EE0C1A53798CD727113EC0C /* m4399QuickLogin-EAccountOpenPageResource */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DA9D25D4570442DD7B6F8B13B002C7A /* Build configuration list for PBXNativeTarget "m4399QuickLogin-EAccountOpenPageResource" */;
+			buildPhases = (
+				9755FBD8D33FA4BF6515D0A928EA2329 /* Sources */,
+				54D8E563AE449BC3DEF8C48AB75DF1BD /* Frameworks */,
+				8ABD10F8946E0FA5F0706EBD15597DDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "m4399QuickLogin-EAccountOpenPageResource";
+			productName = "m4399QuickLogin-EAccountOpenPageResource";
+			productReference = 5A0E2D93E4572F103246945DDF5195D0 /* EAccountOpenPageResource.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 6292109A12F6CAED4BCD31D4B5011487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8563BA2A791C80961B91F6A71F7B520 /* m4399QuickLogin */,
+				BEB446265EE0C1A53798CD727113EC0C /* m4399QuickLogin-EAccountOpenPageResource */,
+				6A243E4C145B294920937061DE9E5985 /* Pods-m4399QuickLogin_Example */,
+				274146A7D3F1C74DA199B09099F8B95A /* Pods-m4399QuickLogin_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8ABD10F8946E0FA5F0706EBD15597DDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31C7E40F014716F40C28576519754D7E /* 189m.png in Resources */,
+				1921159A4B5B5318F011861DE81AE3E5 /* checkBox_selected@2x.png in Resources */,
+				2C845643256BE9A266884630E59BF9F8 /* checkBox_unSelected@2x.png in Resources */,
+				B25D7405A056FF6DA6F1A818176D3FB3 /* EAccountAuthVC.xib in Resources */,
+				3BE47D6ED4AB8119ADFE6B67A94F6394 /* EAccountAuthVC_dynamic.xib in Resources */,
+				BBD828041D08EB330204DC04303CDE69 /* EAccountWebViewVC.xib in Resources */,
+				D5E02C505BDEF2057FA8ACA5EE4076FC /* EAccountWebViewVC_dynamic.xib in Resources */,
+				0D76BC29E5E7EFDC6A895A14AECDBC15 /* goback_nor@2x.png in Resources */,
+				37D37B46AEEFADC571A7CAA2BDB53293 /* goback_sel@2x.png in Resources */,
+				A5F010FC6E8110543FEF28BD9E34609E /* loading@2x.png in Resources */,
+				C9D3E0EFBE5738DE6FD6B4D81B855255 /* loginBtn_Dis@2x.png in Resources */,
+				C4954DD9C337CF06421B239583CBE5EB /* loginBtn_Nor@2x.png in Resources */,
+				00E6252762A3155C7E2D87717FFA284B /* loginBtn_Pre@2x.png in Resources */,
+				B93195CAE75C25D072DBA305DC5E2B72 /* logo@2x.png in Resources */,
+				8D933F99D43002A157DCD7BCBD92A288 /* logo_mask1@2x.png in Resources */,
+				46F6C54265F8D582C0D0620FD5D40FBF /* logo_mask@2x.png in Resources */,
+				8297F8BBBBA8BC50601C60420BF3F00E /* logo_mini@2x.png in Resources */,
+				AD41FF8726D946BCF5F88680DFB43EC3 /* test1.png in Resources */,
+				EE9832A8DE48625BADF6C5C51A531042 /* test2.png in Resources */,
+				F24317362F30146C13CB954BF12AE5BB /* test3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D3983FC2BAD0B465490A275CCD9BF38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89F8B4EDB9BACC320DD74BBA91FAD96D /* Pods-m4399QuickLogin_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9755FBD8D33FA4BF6515D0A928EA2329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83C6FD850ADA70DCF8FAB3FDE8B02A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608A9C461E1FFBC000C7D6937C1B7D08 /* Pods-m4399QuickLogin_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D6904620FCB791C164AD62F22E99889 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "m4399QuickLogin-EAccountOpenPageResource";
+			target = BEB446265EE0C1A53798CD727113EC0C /* m4399QuickLogin-EAccountOpenPageResource */;
+			targetProxy = 7924246221495DDBF3F4C45EE6FCEE7D /* PBXContainerItemProxy */;
+		};
+		D37D0E2D5EDCA5532EFFEF1CB079DA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-m4399QuickLogin_Example";
+			target = 6A243E4C145B294920937061DE9E5985 /* Pods-m4399QuickLogin_Example */;
+			targetProxy = D2A88BB2BA99D3B6FCBD9977FF60C83E /* PBXContainerItemProxy */;
+		};
+		D38D2817D3A520A788C05773F594F742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = m4399QuickLogin;
+			target = B8563BA2A791C80961B91F6A71F7B520 /* m4399QuickLogin */;
+			targetProxy = 5329173BCB2CAB28235EDB2B6BBEC772 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		133C7C2800CCD26A13D6C3E8244F1538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/m4399QuickLogin";
+				INFOPLIST_FILE = "Target Support Files/m4399QuickLogin/ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EAccountOpenPageResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2D9866C114B1BF6B90EA0348A7C8197F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF28767B5C5650475E310E8913CD5BB /* Pods-m4399QuickLogin_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51FC7ABDA8F2BA249631A1198286F28D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16FDD1B7BAA1954F98B4D623988AF931 /* Pods-m4399QuickLogin_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BA4673A1496FC068A876AD189F403D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25D0907DA060CD34F45AD2A822F28A09 /* Pods-m4399QuickLogin_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62CE60D27F80827ADB49BDCD559C3AC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		92AE9F2794C63F2D48C3941506F411BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91ECC833A083E6076C1141FC62BF420 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC54C9908DA24C5A0C92A1053E337377 /* Pods-m4399QuickLogin_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE024B6571B303A3C7DCB7D784658CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/m4399QuickLogin";
+				INFOPLIST_FILE = "Target Support Files/m4399QuickLogin/ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EAccountOpenPageResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DA9D25D4570442DD7B6F8B13B002C7A /* Build configuration list for PBXNativeTarget "m4399QuickLogin-EAccountOpenPageResource" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE024B6571B303A3C7DCB7D784658CC3 /* Debug */,
+				133C7C2800CCD26A13D6C3E8244F1538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B4D5DF0CEDD9FA5B33912B49E72898B /* Build configuration list for PBXNativeTarget "Pods-m4399QuickLogin_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91ECC833A083E6076C1141FC62BF420 /* Debug */,
+				5BA4673A1496FC068A876AD189F403D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B24C714290A8CB6583653A0F2D2C6263 /* Build configuration list for PBXNativeTarget "Pods-m4399QuickLogin_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51FC7ABDA8F2BA249631A1198286F28D /* Debug */,
+				2D9866C114B1BF6B90EA0348A7C8197F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C70E39B9CEC438EBA99409D1AA3CB926 /* Build configuration list for PBXAggregateTarget "m4399QuickLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AE9F2794C63F2D48C3941506F411BF /* Debug */,
+				62CE60D27F80827ADB49BDCD559C3AC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module m4399QuickLogin {
+  umbrella header "m4399QuickLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
