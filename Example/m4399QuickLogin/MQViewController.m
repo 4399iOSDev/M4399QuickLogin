@@ -20,7 +20,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [MQLoginManager shareManager].debug = YES;
-    [[MQLoginManager shareManager] initWithClientId:@"002ba29f6761b942f1776cbf578a7a58"];
+    [[MQLoginManager shareManager] initWithClientId:@"test"]; //请联系开发者获取clientId
 }
 
 - (void)didReceiveMemoryWarning
