@@ -16,33 +16,32 @@
 				5D6904620FCB791C164AD62F22E99889 /* PBXTargetDependency */,
 			);
 			name = m4399QuickLogin;
-			productName = m4399QuickLogin;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		00E6252762A3155C7E2D87717FFA284B /* loginBtn_Pre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49D3AB01A9C39B208BD9A57B76A44E5 /* loginBtn_Pre@2x.png */; };
-		0D76BC29E5E7EFDC6A895A14AECDBC15 /* goback_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CB2B8823DBFD41D5674E5F271149185 /* goback_nor@2x.png */; };
-		1921159A4B5B5318F011861DE81AE3E5 /* checkBox_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C5A8B7BBDA8D329C18CE0C56B987BE /* checkBox_selected@2x.png */; };
-		2C845643256BE9A266884630E59BF9F8 /* checkBox_unSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DB11309165C56315ABF42600427B73F /* checkBox_unSelected@2x.png */; };
-		31C7E40F014716F40C28576519754D7E /* 189m.png in Resources */ = {isa = PBXBuildFile; fileRef = 438321692E4AFF8316A3BE4F9B1499FC /* 189m.png */; };
-		37D37B46AEEFADC571A7CAA2BDB53293 /* goback_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A57C9EFECC320628AA3378D84DD81E1 /* goback_sel@2x.png */; };
-		3BE47D6ED4AB8119ADFE6B67A94F6394 /* EAccountAuthVC_dynamic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0FCE4652D9ACD6C07906C748D8C8D151 /* EAccountAuthVC_dynamic.xib */; };
-		46F6C54265F8D582C0D0620FD5D40FBF /* logo_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB79188469D1923DFFA7C16C795E6F7F /* logo_mask@2x.png */; };
+		00E6252762A3155C7E2D87717FFA284B /* loginBtn_Pre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7100A9D1341F5E4770C96BD54A9320F /* loginBtn_Pre@2x.png */; };
+		0D76BC29E5E7EFDC6A895A14AECDBC15 /* goback_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B26719F5286D425FC97C308D869361C1 /* goback_nor@2x.png */; };
+		1921159A4B5B5318F011861DE81AE3E5 /* checkBox_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D43ABA6205B91FD1C9C9372884DAE5D /* checkBox_selected@2x.png */; };
+		2C845643256BE9A266884630E59BF9F8 /* checkBox_unSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 856C77447C454509E06B65015D680944 /* checkBox_unSelected@2x.png */; };
+		31C7E40F014716F40C28576519754D7E /* 189m.png in Resources */ = {isa = PBXBuildFile; fileRef = 0144E85E846072D493777631AEEBFBFC /* 189m.png */; };
+		37D37B46AEEFADC571A7CAA2BDB53293 /* goback_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63668D19ABC66A834086954E97B0C6C5 /* goback_sel@2x.png */; };
+		3BE47D6ED4AB8119ADFE6B67A94F6394 /* EAccountAuthVC_dynamic.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0AF54D93198727A24392F46F8F5C188 /* EAccountAuthVC_dynamic.xib */; };
+		46F6C54265F8D582C0D0620FD5D40FBF /* logo_mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 886EF568675D2DC73217D453DBE1D595 /* logo_mask@2x.png */; };
 		608A9C461E1FFBC000C7D6937C1B7D08 /* Pods-m4399QuickLogin_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D653AD19BDD39485D0CD5016DDE26D /* Pods-m4399QuickLogin_Example-dummy.m */; };
-		8297F8BBBBA8BC50601C60420BF3F00E /* logo_mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E4566899EDC9873309F69EECBA54402 /* logo_mini@2x.png */; };
+		8297F8BBBBA8BC50601C60420BF3F00E /* logo_mini@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4095769C3D90B1BBD064F3CEA626BB76 /* logo_mini@2x.png */; };
 		89F8B4EDB9BACC320DD74BBA91FAD96D /* Pods-m4399QuickLogin_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3258D0F4B2F4F1173AD008FCE024E2 /* Pods-m4399QuickLogin_Tests-dummy.m */; };
-		8D933F99D43002A157DCD7BCBD92A288 /* logo_mask1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4B10832A01F71BDD712901DDB809E1 /* logo_mask1@2x.png */; };
-		A5F010FC6E8110543FEF28BD9E34609E /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E86BB004710BB7CF5102CAE3D5D4425 /* loading@2x.png */; };
-		AD41FF8726D946BCF5F88680DFB43EC3 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6E3DB5A14E7E55882C2FF21B1912FED /* test1.png */; };
-		B25D7405A056FF6DA6F1A818176D3FB3 /* EAccountAuthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0EBB3F5038C2FCA20B51286932AEAFD /* EAccountAuthVC.xib */; };
-		B93195CAE75C25D072DBA305DC5E2B72 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 594D83060D1F2B4681963F0F14967822 /* logo@2x.png */; };
-		BBD828041D08EB330204DC04303CDE69 /* EAccountWebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36FEC190E85F54BF558FF4B9955249F /* EAccountWebViewVC.xib */; };
-		C4954DD9C337CF06421B239583CBE5EB /* loginBtn_Nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FAAD4F5BB23BDAC292CCD878EE3E26 /* loginBtn_Nor@2x.png */; };
-		C9D3E0EFBE5738DE6FD6B4D81B855255 /* loginBtn_Dis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF6685522F1E976F9D9803AFE514C71 /* loginBtn_Dis@2x.png */; };
-		D5E02C505BDEF2057FA8ACA5EE4076FC /* EAccountWebViewVC_dynamic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DE565B2C8771C42DA4BE166767269A1 /* EAccountWebViewVC_dynamic.xib */; };
-		EE9832A8DE48625BADF6C5C51A531042 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 52D27F2F7574C935E11F2A5FA2B564B5 /* test2.png */; };
-		F24317362F30146C13CB954BF12AE5BB /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 10187DA4ABD5D5629F5D555DA8A3A559 /* test3.png */; };
+		8D933F99D43002A157DCD7BCBD92A288 /* logo_mask1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB568FCDA8091FFBC235A0E4A6327CA /* logo_mask1@2x.png */; };
+		A5F010FC6E8110543FEF28BD9E34609E /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3353F03E17915E6C4D984A37083E577 /* loading@2x.png */; };
+		AD41FF8726D946BCF5F88680DFB43EC3 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21DE6BE47498C97A9AD14B35E7456EC8 /* test1.png */; };
+		B25D7405A056FF6DA6F1A818176D3FB3 /* EAccountAuthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F28A6B2BA97D613F87FD08248B770C /* EAccountAuthVC.xib */; };
+		B93195CAE75C25D072DBA305DC5E2B72 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F15C9DEDD22A306C0610326159A0C950 /* logo@2x.png */; };
+		BBD828041D08EB330204DC04303CDE69 /* EAccountWebViewVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D892D3F21B70BF7DFC87D5AA540B6CA1 /* EAccountWebViewVC.xib */; };
+		C4954DD9C337CF06421B239583CBE5EB /* loginBtn_Nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F28AEE0D45BF98CD8B1A0DC2BA810C23 /* loginBtn_Nor@2x.png */; };
+		C9D3E0EFBE5738DE6FD6B4D81B855255 /* loginBtn_Dis@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 40B0DE56348C0052CAD87AB4EAAB6089 /* loginBtn_Dis@2x.png */; };
+		D5E02C505BDEF2057FA8ACA5EE4076FC /* EAccountWebViewVC_dynamic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 228FF1AC122DCD87C950E381C3959180 /* EAccountWebViewVC_dynamic.xib */; };
+		EE9832A8DE48625BADF6C5C51A531042 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = E57EDB9F59D947515E182BBBEB9C7302 /* test2.png */; };
+		F24317362F30146C13CB954BF12AE5BB /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 175664960AE596872CA50AFE2C205F58 /* test3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,48 +69,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0CB2B8823DBFD41D5674E5F271149185 /* goback_nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_nor@2x.png"; path = "m4399QuickLogin/Assets/goback_nor@2x.png"; sourceTree = "<group>"; };
-		0FCE4652D9ACD6C07906C748D8C8D151 /* EAccountAuthVC_dynamic.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountAuthVC_dynamic.xib; path = m4399QuickLogin/Assets/EAccountAuthVC_dynamic.xib; sourceTree = "<group>"; };
-		10187DA4ABD5D5629F5D555DA8A3A559 /* test3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test3.png; path = m4399QuickLogin/Assets/test3.png; sourceTree = "<group>"; };
+		0144E85E846072D493777631AEEBFBFC /* 189m.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 189m.png; path = m4399QuickLogin/Assets/189m.png; sourceTree = "<group>"; };
+		07F28A6B2BA97D613F87FD08248B770C /* EAccountAuthVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountAuthVC.xib; path = m4399QuickLogin/Assets/EAccountAuthVC.xib; sourceTree = "<group>"; };
+		0D43ABA6205B91FD1C9C9372884DAE5D /* checkBox_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkBox_selected@2x.png"; path = "m4399QuickLogin/Assets/checkBox_selected@2x.png"; sourceTree = "<group>"; };
 		16FDD1B7BAA1954F98B4D623988AF931 /* Pods-m4399QuickLogin_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		175664960AE596872CA50AFE2C205F58 /* test3.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test3.png; path = m4399QuickLogin/Assets/test3.png; sourceTree = "<group>"; };
+		21DE6BE47498C97A9AD14B35E7456EC8 /* test1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test1.png; path = m4399QuickLogin/Assets/test1.png; sourceTree = "<group>"; };
+		228FF1AC122DCD87C950E381C3959180 /* EAccountWebViewVC_dynamic.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountWebViewVC_dynamic.xib; path = m4399QuickLogin/Assets/EAccountWebViewVC_dynamic.xib; sourceTree = "<group>"; };
 		25D0907DA060CD34F45AD2A822F28A09 /* Pods-m4399QuickLogin_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2A0E696B35F6730F4678FF4DFF6FE7C5 /* Pods-m4399QuickLogin_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-m4399QuickLogin_Example-resources.sh"; sourceTree = "<group>"; };
-		2E4566899EDC9873309F69EECBA54402 /* logo_mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mini@2x.png"; path = "m4399QuickLogin/Assets/logo_mini@2x.png"; sourceTree = "<group>"; };
 		2EB2E48B354FE7A419B3FE72ADFB81E3 /* Pods-m4399QuickLogin_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-m4399QuickLogin_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		3186141BA2EEACBF87C2672516F3BFEB /* libPods-m4399QuickLogin_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m4399QuickLogin_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34AB26CA663DDC49BCD7A1000F0AFAC5 /* m4399QuickLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = m4399QuickLogin.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		3186141BA2EEACBF87C2672516F3BFEB /* libPods-m4399QuickLogin_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-m4399QuickLogin_Tests.a"; path = "libPods-m4399QuickLogin_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		405F2F0FEBC689E78429B630357442DC /* Pods-m4399QuickLogin_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-m4399QuickLogin_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		438321692E4AFF8316A3BE4F9B1499FC /* 189m.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 189m.png; path = m4399QuickLogin/Assets/189m.png; sourceTree = "<group>"; };
-		4DB11309165C56315ABF42600427B73F /* checkBox_unSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkBox_unSelected@2x.png"; path = "m4399QuickLogin/Assets/checkBox_unSelected@2x.png"; sourceTree = "<group>"; };
-		4E86BB004710BB7CF5102CAE3D5D4425 /* loading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading@2x.png"; path = "m4399QuickLogin/Assets/loading@2x.png"; sourceTree = "<group>"; };
-		52D27F2F7574C935E11F2A5FA2B564B5 /* test2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test2.png; path = m4399QuickLogin/Assets/test2.png; sourceTree = "<group>"; };
-		594D83060D1F2B4681963F0F14967822 /* logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo@2x.png"; path = "m4399QuickLogin/Assets/logo@2x.png"; sourceTree = "<group>"; };
-		5A0E2D93E4572F103246945DDF5195D0 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EAccountOpenPageResource.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A57C9EFECC320628AA3378D84DD81E1 /* goback_sel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_sel@2x.png"; path = "m4399QuickLogin/Assets/goback_sel@2x.png"; sourceTree = "<group>"; };
-		640612C44020A5E2BDB6EEF03F650425 /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountHYSDK.framework; path = m4399QuickLogin/EAccountHYSDK.framework; sourceTree = "<group>"; };
-		68FAAD4F5BB23BDAC292CCD878EE3E26 /* loginBtn_Nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Nor@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Nor@2x.png"; sourceTree = "<group>"; };
+		4095769C3D90B1BBD064F3CEA626BB76 /* logo_mini@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mini@2x.png"; path = "m4399QuickLogin/Assets/logo_mini@2x.png"; sourceTree = "<group>"; };
+		40B0DE56348C0052CAD87AB4EAAB6089 /* loginBtn_Dis@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Dis@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Dis@2x.png"; sourceTree = "<group>"; };
+		5A0E2D93E4572F103246945DDF5195D0 /* EAccountOpenPageResource.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EAccountOpenPageResource.bundle; path = "m4399QuickLogin-EAccountOpenPageResource.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		63668D19ABC66A834086954E97B0C6C5 /* goback_sel@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_sel@2x.png"; path = "m4399QuickLogin/Assets/goback_sel@2x.png"; sourceTree = "<group>"; };
 		731BA41E9344FFF5CE36F4732E8012E2 /* Pods-m4399QuickLogin_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-m4399QuickLogin_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7D4B10832A01F71BDD712901DDB809E1 /* logo_mask1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mask1@2x.png"; path = "m4399QuickLogin/Assets/logo_mask1@2x.png"; sourceTree = "<group>"; };
-		8B14900D2D8DF59FE980281DBF7DE7CC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		94DDC84F8A29D886FE81DEBE4D6F1F02 /* libPods-m4399QuickLogin_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-m4399QuickLogin_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DE565B2C8771C42DA4BE166767269A1 /* EAccountWebViewVC_dynamic.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountWebViewVC_dynamic.xib; path = m4399QuickLogin/Assets/EAccountWebViewVC_dynamic.xib; sourceTree = "<group>"; };
-		A6170D3760D70B8D908F3D12E2B34491 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		856C77447C454509E06B65015D680944 /* checkBox_unSelected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkBox_unSelected@2x.png"; path = "m4399QuickLogin/Assets/checkBox_unSelected@2x.png"; sourceTree = "<group>"; };
+		886EF568675D2DC73217D453DBE1D595 /* logo_mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mask@2x.png"; path = "m4399QuickLogin/Assets/logo_mask@2x.png"; sourceTree = "<group>"; };
+		8BB568FCDA8091FFBC235A0E4A6327CA /* logo_mask1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mask1@2x.png"; path = "m4399QuickLogin/Assets/logo_mask1@2x.png"; sourceTree = "<group>"; };
+		94DDC84F8A29D886FE81DEBE4D6F1F02 /* libPods-m4399QuickLogin_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-m4399QuickLogin_Example.a"; path = "libPods-m4399QuickLogin_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2E45684E73FAD8C9A208C2BE4167062 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AA96797F3852F5A3920C635DEB1C0E8A /* Pods-m4399QuickLogin_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-m4399QuickLogin_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB79188469D1923DFFA7C16C795E6F7F /* logo_mask@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo_mask@2x.png"; path = "m4399QuickLogin/Assets/logo_mask@2x.png"; sourceTree = "<group>"; };
-		B49D3AB01A9C39B208BD9A57B76A44E5 /* loginBtn_Pre@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Pre@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Pre@2x.png"; sourceTree = "<group>"; };
-		B6DE7F4C84900700129D8E8C4006BEF4 /* ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist"; sourceTree = "<group>"; };
-		B6E3DB5A14E7E55882C2FF21B1912FED /* test1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test1.png; path = m4399QuickLogin/Assets/test1.png; sourceTree = "<group>"; };
+		AAC26888F7A6B31762671AFBEBF9D404 /* m4399QuickLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = m4399QuickLogin.framework; path = m4399QuickLogin/Framewrok/m4399QuickLogin.framework; sourceTree = "<group>"; };
+		B26719F5286D425FC97C308D869361C1 /* goback_nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "goback_nor@2x.png"; path = "m4399QuickLogin/Assets/goback_nor@2x.png"; sourceTree = "<group>"; };
+		B5BCF70F1CE3428481C50374BCC34C1A /* EAccountHYSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EAccountHYSDK.framework; path = m4399QuickLogin/Framewrok/EAccountHYSDK.framework; sourceTree = "<group>"; };
+		B9EA7B9AD5756B2AFD0796B90A98393F /* account_login_sdk_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = account_login_sdk_core.framework; path = m4399QuickLogin/Framewrok/account_login_sdk_core.framework; sourceTree = "<group>"; };
 		BC54C9908DA24C5A0C92A1053E337377 /* Pods-m4399QuickLogin_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C0EBB3F5038C2FCA20B51286932AEAFD /* EAccountAuthVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountAuthVC.xib; path = m4399QuickLogin/Assets/EAccountAuthVC.xib; sourceTree = "<group>"; };
-		C36FEC190E85F54BF558FF4B9955249F /* EAccountWebViewVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountWebViewVC.xib; path = m4399QuickLogin/Assets/EAccountWebViewVC.xib; sourceTree = "<group>"; };
+		BEFA46BCFB09E33C86EA254F60BD4593 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CBF28767B5C5650475E310E8913CD5BB /* Pods-m4399QuickLogin_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-m4399QuickLogin_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CDF6685522F1E976F9D9803AFE514C71 /* loginBtn_Dis@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Dis@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Dis@2x.png"; sourceTree = "<group>"; };
-		CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = m4399QuickLogin.xcconfig; sourceTree = "<group>"; };
-		E2547DFF8A9F5BE98CAE4F293D654D15 /* m4399QuickLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = m4399QuickLogin.framework; path = m4399QuickLogin/m4399QuickLogin.framework; sourceTree = "<group>"; };
+		D0AF54D93198727A24392F46F8F5C188 /* EAccountAuthVC_dynamic.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountAuthVC_dynamic.xib; path = m4399QuickLogin/Assets/EAccountAuthVC_dynamic.xib; sourceTree = "<group>"; };
+		D318E1A4C266A7D164BE827E0999D480 /* ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist"; sourceTree = "<group>"; };
+		D7100A9D1341F5E4770C96BD54A9320F /* loginBtn_Pre@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Pre@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Pre@2x.png"; sourceTree = "<group>"; };
+		D892D3F21B70BF7DFC87D5AA540B6CA1 /* EAccountWebViewVC.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = EAccountWebViewVC.xib; path = m4399QuickLogin/Assets/EAccountWebViewVC.xib; sourceTree = "<group>"; };
+		DD7E7A4E75318B16545FF74B079AAE82 /* m4399QuickLogin.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = m4399QuickLogin.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E0350FF2198C79B02EF1410CE4CA56E2 /* m4399QuickLogin.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = m4399QuickLogin.xcconfig; sourceTree = "<group>"; };
 		E3D653AD19BDD39485D0CD5016DDE26D /* Pods-m4399QuickLogin_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-m4399QuickLogin_Example-dummy.m"; sourceTree = "<group>"; };
+		E57EDB9F59D947515E182BBBEB9C7302 /* test2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = test2.png; path = m4399QuickLogin/Assets/test2.png; sourceTree = "<group>"; };
 		EF3258D0F4B2F4F1173AD008FCE024E2 /* Pods-m4399QuickLogin_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-m4399QuickLogin_Tests-dummy.m"; sourceTree = "<group>"; };
-		F8C5A8B7BBDA8D329C18CE0C56B987BE /* checkBox_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkBox_selected@2x.png"; path = "m4399QuickLogin/Assets/checkBox_selected@2x.png"; sourceTree = "<group>"; };
+		F15C9DEDD22A306C0610326159A0C950 /* logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "logo@2x.png"; path = "m4399QuickLogin/Assets/logo@2x.png"; sourceTree = "<group>"; };
+		F28AEE0D45BF98CD8B1A0DC2BA810C23 /* loginBtn_Nor@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loginBtn_Nor@2x.png"; path = "m4399QuickLogin/Assets/loginBtn_Nor@2x.png"; sourceTree = "<group>"; };
+		F3353F03E17915E6C4D984A37083E577 /* loading@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "loading@2x.png"; path = "m4399QuickLogin/Assets/loading@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,16 +152,6 @@
 			path = "Target Support Files/Pods-m4399QuickLogin_Tests";
 			sourceTree = "<group>";
 		};
-		22106808908D6E0BC20E933B818A84D6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */,
-				B6DE7F4C84900700129D8E8C4006BEF4 /* ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/m4399QuickLogin";
-			sourceTree = "<group>";
-		};
 		24304C6DB3D01735660454DE2D7E8FAA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +159,18 @@
 				1486026272BB8FA55C08EE091698FF27 /* Pods-m4399QuickLogin_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4598F896E0D0394C12733BEEF811DF0E /* m4399QuickLogin */ = {
+			isa = PBXGroup;
+			children = (
+				7D72CEBBDD7B823B9FC499EC56680EB1 /* Frameworks */,
+				E697F308C04136184A110FBAEACA7BD3 /* Pod */,
+				B8476FD6E2564F1A3D33A5BEABCE91B1 /* Resources */,
+				71F9B93DC17793474E2FFF285EB3E257 /* Support Files */,
+			);
+			name = m4399QuickLogin;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6292109A12F6CAED4BCD31D4B5011487 /* Products */ = {
@@ -181,68 +183,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66430596F90C574353F2AB6F3B58DF25 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8B14900D2D8DF59FE980281DBF7DE7CC /* LICENSE */,
-				34AB26CA663DDC49BCD7A1000F0AFAC5 /* m4399QuickLogin.podspec */,
-				A6170D3760D70B8D908F3D12E2B34491 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		6BA8CA318815E3A8223A102EA45E915D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8E7ED5D31525DB94C2C94204E359D891 /* m4399QuickLogin */,
+				4598F896E0D0394C12733BEEF811DF0E /* m4399QuickLogin */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		77E4A292D94FBD73FA65138BBBCDC6DA /* Resources */ = {
+		71F9B93DC17793474E2FFF285EB3E257 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				438321692E4AFF8316A3BE4F9B1499FC /* 189m.png */,
-				F8C5A8B7BBDA8D329C18CE0C56B987BE /* checkBox_selected@2x.png */,
-				4DB11309165C56315ABF42600427B73F /* checkBox_unSelected@2x.png */,
-				C0EBB3F5038C2FCA20B51286932AEAFD /* EAccountAuthVC.xib */,
-				0FCE4652D9ACD6C07906C748D8C8D151 /* EAccountAuthVC_dynamic.xib */,
-				C36FEC190E85F54BF558FF4B9955249F /* EAccountWebViewVC.xib */,
-				9DE565B2C8771C42DA4BE166767269A1 /* EAccountWebViewVC_dynamic.xib */,
-				0CB2B8823DBFD41D5674E5F271149185 /* goback_nor@2x.png */,
-				5A57C9EFECC320628AA3378D84DD81E1 /* goback_sel@2x.png */,
-				4E86BB004710BB7CF5102CAE3D5D4425 /* loading@2x.png */,
-				CDF6685522F1E976F9D9803AFE514C71 /* loginBtn_Dis@2x.png */,
-				68FAAD4F5BB23BDAC292CCD878EE3E26 /* loginBtn_Nor@2x.png */,
-				B49D3AB01A9C39B208BD9A57B76A44E5 /* loginBtn_Pre@2x.png */,
-				594D83060D1F2B4681963F0F14967822 /* logo@2x.png */,
-				7D4B10832A01F71BDD712901DDB809E1 /* logo_mask1@2x.png */,
-				AB79188469D1923DFFA7C16C795E6F7F /* logo_mask@2x.png */,
-				2E4566899EDC9873309F69EECBA54402 /* logo_mini@2x.png */,
-				B6E3DB5A14E7E55882C2FF21B1912FED /* test1.png */,
-				52D27F2F7574C935E11F2A5FA2B564B5 /* test2.png */,
-				10187DA4ABD5D5629F5D555DA8A3A559 /* test3.png */,
+				E0350FF2198C79B02EF1410CE4CA56E2 /* m4399QuickLogin.xcconfig */,
+				D318E1A4C266A7D164BE827E0999D480 /* ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist */,
 			);
-			name = Resources;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/m4399QuickLogin";
 			sourceTree = "<group>";
 		};
-		8E7ED5D31525DB94C2C94204E359D891 /* m4399QuickLogin */ = {
+		7D72CEBBDD7B823B9FC499EC56680EB1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				91384443F6E2D5D1156AF4974577DEE2 /* Frameworks */,
-				66430596F90C574353F2AB6F3B58DF25 /* Pod */,
-				77E4A292D94FBD73FA65138BBBCDC6DA /* Resources */,
-				22106808908D6E0BC20E933B818A84D6 /* Support Files */,
-			);
-			name = m4399QuickLogin;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		91384443F6E2D5D1156AF4974577DEE2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				640612C44020A5E2BDB6EEF03F650425 /* EAccountHYSDK.framework */,
-				E2547DFF8A9F5BE98CAE4F293D654D15 /* m4399QuickLogin.framework */,
+				B9EA7B9AD5756B2AFD0796B90A98393F /* account_login_sdk_core.framework */,
+				B5BCF70F1CE3428481C50374BCC34C1A /* EAccountHYSDK.framework */,
+				AAC26888F7A6B31762671AFBEBF9D404 /* m4399QuickLogin.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -261,6 +225,33 @@
 			path = "Target Support Files/Pods-m4399QuickLogin_Example";
 			sourceTree = "<group>";
 		};
+		B8476FD6E2564F1A3D33A5BEABCE91B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0144E85E846072D493777631AEEBFBFC /* 189m.png */,
+				0D43ABA6205B91FD1C9C9372884DAE5D /* checkBox_selected@2x.png */,
+				856C77447C454509E06B65015D680944 /* checkBox_unSelected@2x.png */,
+				07F28A6B2BA97D613F87FD08248B770C /* EAccountAuthVC.xib */,
+				D0AF54D93198727A24392F46F8F5C188 /* EAccountAuthVC_dynamic.xib */,
+				D892D3F21B70BF7DFC87D5AA540B6CA1 /* EAccountWebViewVC.xib */,
+				228FF1AC122DCD87C950E381C3959180 /* EAccountWebViewVC_dynamic.xib */,
+				B26719F5286D425FC97C308D869361C1 /* goback_nor@2x.png */,
+				63668D19ABC66A834086954E97B0C6C5 /* goback_sel@2x.png */,
+				F3353F03E17915E6C4D984A37083E577 /* loading@2x.png */,
+				40B0DE56348C0052CAD87AB4EAAB6089 /* loginBtn_Dis@2x.png */,
+				F28AEE0D45BF98CD8B1A0DC2BA810C23 /* loginBtn_Nor@2x.png */,
+				D7100A9D1341F5E4770C96BD54A9320F /* loginBtn_Pre@2x.png */,
+				F15C9DEDD22A306C0610326159A0C950 /* logo@2x.png */,
+				8BB568FCDA8091FFBC235A0E4A6327CA /* logo_mask1@2x.png */,
+				886EF568675D2DC73217D453DBE1D595 /* logo_mask@2x.png */,
+				4095769C3D90B1BBD064F3CEA626BB76 /* logo_mini@2x.png */,
+				21DE6BE47498C97A9AD14B35E7456EC8 /* test1.png */,
+				E57EDB9F59D947515E182BBBEB9C7302 /* test2.png */,
+				175664960AE596872CA50AFE2C205F58 /* test3.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -277,6 +268,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E697F308C04136184A110FBAEACA7BD3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A2E45684E73FAD8C9A208C2BE4167062 /* LICENSE */,
+				DD7E7A4E75318B16545FF74B079AAE82 /* m4399QuickLogin.podspec */,
+				BEFA46BCFB09E33C86EA254F60BD4593 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +368,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 6292109A12F6CAED4BCD31D4B5011487 /* Products */;
@@ -459,22 +461,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		133C7C2800CCD26A13D6C3E8244F1538 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/m4399QuickLogin";
-				INFOPLIST_FILE = "Target Support Files/m4399QuickLogin/ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = EAccountOpenPageResource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		2D9866C114B1BF6B90EA0348A7C8197F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBF28767B5C5650475E310E8913CD5BB /* Pods-m4399QuickLogin_Tests.release.xcconfig */;
@@ -542,7 +528,7 @@
 		};
 		62CE60D27F80827ADB49BDCD559C3AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
+			baseConfigurationReference = E0350FF2198C79B02EF1410CE4CA56E2 /* m4399QuickLogin.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -553,6 +539,23 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		6D08432AFEC8BE3F919502086B6FCA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0350FF2198C79B02EF1410CE4CA56E2 /* m4399QuickLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/m4399QuickLogin";
+				IBSC_MODULE = m4399QuickLogin;
+				INFOPLIST_FILE = "Target Support Files/m4399QuickLogin/ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EAccountOpenPageResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -607,7 +610,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -679,7 +683,7 @@
 		};
 		92AE9F2794C63F2D48C3941506F411BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
+			baseConfigurationReference = E0350FF2198C79B02EF1410CE4CA56E2 /* m4399QuickLogin.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -689,6 +693,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		C0BF08EB9C87620A54AC3949D6A20EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0350FF2198C79B02EF1410CE4CA56E2 /* m4399QuickLogin.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/m4399QuickLogin";
+				IBSC_MODULE = m4399QuickLogin;
+				INFOPLIST_FILE = "Target Support Files/m4399QuickLogin/ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = EAccountOpenPageResource;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		D91ECC833A083E6076C1141FC62BF420 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -711,30 +732,14 @@
 			};
 			name = Debug;
 		};
-		EE024B6571B303A3C7DCB7D784658CC3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEF3E5E3470D1A72FC8623A98C9AB0D6 /* m4399QuickLogin.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/m4399QuickLogin";
-				INFOPLIST_FILE = "Target Support Files/m4399QuickLogin/ResourceBundle-EAccountOpenPageResource-m4399QuickLogin-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = EAccountOpenPageResource;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		1DA9D25D4570442DD7B6F8B13B002C7A /* Build configuration list for PBXNativeTarget "m4399QuickLogin-EAccountOpenPageResource" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE024B6571B303A3C7DCB7D784658CC3 /* Debug */,
-				133C7C2800CCD26A13D6C3E8244F1538 /* Release */,
+				6D08432AFEC8BE3F919502086B6FCA39 /* Debug */,
+				C0BF08EB9C87620A54AC3949D6A20EC6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

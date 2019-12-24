@@ -1,7 +1,7 @@
 platform :ios, '9.0'
 
 target 'm4399QuickLogin_Example' do
-  pod 'm4399QuickLogin'
+  pod 'm4399QuickLogin', :path => '../'
 
   target 'm4399QuickLogin_Tests' do
     inherit! :search_paths

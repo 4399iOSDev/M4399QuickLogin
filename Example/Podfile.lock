@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  m4399QuickLogin: a3ec01fc034d54f428fba9b48b4ee6578f075b70
+  m4399QuickLogin: cc102c2fad80a9e48660ec0f93e7ff5faeecbaa8
 
 PODFILE CHECKSUM: 5da401750d4ceffa7cec7b4feab0bc3e1c991867
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.8.4

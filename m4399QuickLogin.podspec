@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'm4399QuickLogin'
-  s.version          = '1.0.0'
+  s.version          = '1.2.0'
   s.summary          = '4399一键登录SDK'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-4399一键登录SDK，目前支持移动和电信的一键登录
+4399一键登录SDK，目前支持移动、电信和联通的一键登录
                        DESC
 
   s.homepage         = 'https://github.com/4399iOSDev/M4399QuickLogin'
@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
     'EAccountOpenPageResource' => ['m4399QuickLogin/Assets/*']
   }
   
-  s.ios.vendored_frameworks = 'm4399QuickLogin/EAccountHYSDK.framework', 'm4399QuickLogin/m4399QuickLogin.framework'
+  s.ios.vendored_frameworks = 'm4399QuickLogin/Framewrok/*'
   
   s.libraries = 'c++.1', 'z.1.2.8'
   

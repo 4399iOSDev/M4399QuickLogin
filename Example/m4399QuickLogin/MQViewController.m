@@ -20,7 +20,11 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [MQLoginManager shareManager].debug = YES;
-    [[MQLoginManager shareManager] initWithClientId:@"test"]; //请联系开发者获取clientId
+    [[MQLoginManager shareManager] initWithClientId:@"test" completion:^{
+        
+    } failure:^(NSError * _Nonnull error) {
+        
+    }]; //请联系开发者获取clientId
 }
 
 - (void)didReceiveMemoryWarning
@@ -31,11 +35,13 @@
 - (IBAction)test:(id)sender {
     [[MQLoginManager shareManager] openLoginPage:6 clickHandler:^(NSString * _Nonnull senderTag) {
         
+    } pageDidOpen:^{
+        
     } completion:^(NSDictionary * _Nonnull resultDic) {
-        [[MQLoginManager shareManager] closeLoginPage];
+        [[MQLoginManager shareManager] closeLoginPage:nil];
         [self showAlerView:[NSString stringWithFormat:@"%@", resultDic] title:@"登录成功"];
     } failure:^(NSError * _Nonnull error) {
-        [[MQLoginManager shareManager] closeLoginPage];
+        [[MQLoginManager shareManager] closeLoginPage:nil];
         [self showAlerView:error.domain title:[NSString stringWithFormat:@"error: %ld", (long)error.code]];
     }];
 }

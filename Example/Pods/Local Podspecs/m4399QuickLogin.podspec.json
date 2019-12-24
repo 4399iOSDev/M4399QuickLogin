@@ -1,9 +1,9 @@
 {
   "name": "m4399QuickLogin",
   "version": "1.0.0",
-  "summary": "A short description of m4399QuickLogin.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/hecong@4399inc.com/m4399QuickLogin",
+  "summary": "4399一键登录SDK",
+  "description": "4399一键登录SDK，目前支持移动和电信的一键登录",
+  "homepage": "https://github.com/4399iOSDev/M4399QuickLogin",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,23 +12,19 @@
     "hecong@4399inc.com": "messiah2735@gmail.com"
   },
   "source": {
-    "git": "https://github.com/hecong@4399inc.com/m4399QuickLogin.git",
+    "git": "https://github.com/4399iOSDev/M4399QuickLogin.git",
     "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "m4399QuickLogin/Classes/**/*",
   "resource_bundles": {
     "EAccountOpenPageResource": [
       "m4399QuickLogin/Assets/*"
     ]
   },
   "ios": {
-    "vendored_frameworks": [
-      "m4399QuickLogin/EAccountHYSDK.framework",
-      "m4399QuickLogin/m4399QuickLogin.framework"
-    ]
+    "vendored_frameworks": "m4399QuickLogin/Framewrok/*"
   },
   "libraries": [
     "c++.1",
